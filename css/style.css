@@ -434,6 +434,9 @@ img {
 }
 .footer-social {
   color: white;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer-social-icon {
   display: flex;
@@ -456,5 +459,8 @@ img {
 }
 .footer-data {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+.footer-data-logo {
+  margin-right: 120px;
 }
