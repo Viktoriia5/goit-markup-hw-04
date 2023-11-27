@@ -108,6 +108,9 @@ img {
 .header-list-link {
   display: block;
 }
+.list-item .header-list-link {
+  color: #404bbf;
+}
 .header-list-link:hover::after {
   position: absolute;
   top: 70px;
