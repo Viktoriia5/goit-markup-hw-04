@@ -335,10 +335,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-icon-link:hover,
 .team-social-icon-link:focus {
   background-color: #404bbf;
+}
+.team-svg {
+  fill: #f4f4fd;
 }
 /*  PORTFOLIO SECTION */
 
@@ -363,13 +367,18 @@ img {
 }
 .portfolio-card {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-list li {
+.portfolio-card:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-card:hover .portfolio-list li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   gap: 32px;
-  background: var(--WHITE, #fff);
+  background: #fff;
 }
 .portfolio-card-img {
   position: relative;
