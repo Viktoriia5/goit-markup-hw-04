@@ -152,7 +152,11 @@ img {
 }
 /* HERO SECTION */
 .hero {
+  max-width: 1440рх;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #2e2f42;
+  background-size: cover;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -160,14 +164,10 @@ img {
     url(../images/hero-bg.jpg);
   padding: 188px 0;
 }
-.hero-container {
-  max-width: 1440рх;
-  background-position: center;
-  background-repeat: no-repeat;
+/* .hero-container {
   background-size: cover;
-}
-.hero .container {
-}
+} */
+
 .hero-header {
   display: block;
   margin-left: auto;
