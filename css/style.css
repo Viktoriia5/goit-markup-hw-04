@@ -256,23 +256,23 @@ img {
 .team-list {
   list-style: none;
   display: flex;
+  gap: 24px;
   flex-direction: row;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-.team-list li {
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-.team-list li:not(:last-child) {
+
+/* .team-list li:not(:last-child) {
   margin-right: 24px;
-}
+} */
 .team-list-item {
   width: calc((100% - 72px) / 4);
   background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team {
@@ -309,13 +309,8 @@ img {
   margin-bottom: 32px;
 }
 .team-social-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #4d5ae5;
-  border-radius: 50%;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
